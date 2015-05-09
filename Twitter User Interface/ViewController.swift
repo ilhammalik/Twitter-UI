@@ -190,7 +190,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
         // Set scroll view insets just underneath the segment control
-        tableView.scrollIndicatorInsets = UIEdgeInsetsMake(segmentedView.frame.origin.y.advancedBy(segmentedView.frame.height), 0, 0, 0)
+        tableView.scrollIndicatorInsets = UIEdgeInsetsMake(segmentedView.frame.maxY, 0, 0, 0)
         
         
         
